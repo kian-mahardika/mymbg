@@ -1,0 +1,24 @@
+{
+  "version": "v9",
+  "workflow": "distribution -> teacher evidence -> AI QC -> human verification -> clearance -> vendor claim -> government decision",
+  "checks": 15,
+  "passed": 15,
+  "failed": 0,
+  "scenarios": [
+    "historical_verified_stays_verified",
+    "complete_evidence_becomes_eligible",
+    "active_anomaly_becomes_on_hold",
+    "missing_validation_stays_pending",
+    "verified_teacher_evidence_becomes_eligible",
+    "vendor_claim_allowed_after_eligible",
+    "government_approval_blocked_before_claim",
+    "government_clarification_holds_clearance",
+    "government_clarification_sets_under_review",
+    "vendor_clarification_returns_to_review_queue",
+    "government_approval_verifies_clearance",
+    "government_approval_sets_ready_for_payment",
+    "failed_human_verification_holds_clearance",
+    "claim_blocked_while_on_hold",
+    "resolved_anomaly_recalculates_clearance_and_distribution"
+  ]
+}

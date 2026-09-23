@@ -1,0 +1,9 @@
+{
+  "name": "My MBG",
+  "short_name": "My MBG",
+  "description": "Sistem informasi audit dan monitoring MBG.",
+  "start_url": "/login",
+  "display": "standalone",
+  "background_color": "#f4f6f8",
+  "theme_color": "#0b2241"
+}
